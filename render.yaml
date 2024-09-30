@@ -5,4 +5,4 @@ services:
   buildCommand: |
     apt-get update && apt-get install -y portaudio19-dev
     pip install -r requirements.txt
-  startCommand: python voice.py
+  startCommand: python app.py
